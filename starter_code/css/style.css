@@ -63,11 +63,126 @@ body {
   margin: auto;
 }
 
+
+/*************
+Header Styles
+**************/
+
 header {
+  width:auto;
+  border:auto;
+  background-color:darkblue;
+  text-decoration: none;
+
+}
+header .hlogo{
+  float:left;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  color:white;
+  font-weight:800;
+  font-size:25px;
 
 }
 
+header .hnav{
+  float:right;
+  padding-top:30px;
+  text-decoration: none;
+  color:yellow;
+
+
+}
+.hnav li{
+  display:inline;
+  font-size: 15px;
+  color:yellow;
+  padding-right: 35px;
+  padding-top: 30px;
+  margin-right: 20px;
+  text-decoration:none;
+
+}
+
+.hnav a{
+  text-decoration:none;
+  color:yellow;
+}
+
+.hnav a:hover{
+  font-weight:800;
+  color:red;
+}
+
+
+/*********Section style******/
+
+
+.article{
+  float=left;
+  border:1px;
+  padding-top:30px;
+  padding-left:0px; 
+  clear:both;
+  width:60%;
+  height:auto;
+}
+
+
+.article img{
+  width:100%;
+}
+
+.mainarticle h1{
+  width:auto;
+  font-size:30px;
+  padding-top: 20px;
+  padding-bottom:15px;
+  color:darkblue;
+}
+.mainarticle p{
+  font-size: 18px;
+  width:100%;
+  color:#aaa;
+}
+.mainarticle a{
+  float:right;
+  font-size:20px;
+  color:darkblue;
+  padding-bottom: 10px;
+}
+.mainarticle hr{
+  clear:both;
+  color:darkblue;
+
+}
+
+.sidebar{
+  float:right;
+  width:10%;
+  height:auto;
+  clear:both;
+}
+.category h2{
+  font-size: 2em;
+  font-weight:bold;
+  color:darkblue;
+}
+.about{
+  width:200px;
+
+}
+.about h2{
+  font-size: 2em;
+  font-weight: bold;
+  color:darkblue;
+  font-style:bold;
+}
+
+
 footer {
+  clear:both;
 
 }
 
